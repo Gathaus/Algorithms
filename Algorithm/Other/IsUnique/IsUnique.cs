@@ -1,10 +1,10 @@
 using Algorithm.Sorting;
 
 namespace Algorithm.Other.IsUnique;
-
+//Cracking Coding Interview 1.1
 public class IsUnique
 {
-    public static bool RunWithSorting(string str)
+    public bool RunWithSorting(string str)
     {
         char[] charArray = str.ToCharArray();
         
@@ -23,7 +23,7 @@ public class IsUnique
         return true;
     }
 
-    public static bool RunWithHashSet(string str)
+    public bool RunWithHashSet(string str)
     {
         
         HashSet<char> charSet = new HashSet<char>();
@@ -34,6 +34,23 @@ public class IsUnique
 
             charSet.Add(c);
         }
+        return true;
+    }
+
+    public static bool RunWithBitManipulation(string str)
+    {
+        long bitVector = 0;
+
+        foreach (char c in str)
+        {
+            int bitIndex = (int) c;
+            long mask = 1L << bitIndex;
+
+            if ((bitVector & mask) != 0)
+                return false;
+            bitVector = bitVector | mask;
+        }
+
         return true;
     }
 

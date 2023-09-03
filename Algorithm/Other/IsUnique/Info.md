@@ -2,7 +2,7 @@
 
 ## Problem Type
 
-This problem is a classic example of "String Manipulation" and is commonly asked in coding interviews. The goal is to determine if a given string has all unique characters.
+Implement an algorithm to determine if a string has all unique characters.
 
 ## Methods
 
