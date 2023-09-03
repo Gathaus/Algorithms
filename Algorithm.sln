@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{F96E34BE-DD07-4854-9BE3-BB478D26E6C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Tests", "Algorithm.Tests\Algorithm.Tests.csproj", "{4EFA2C29-2975-445C-BAA1-E873B1D3BC13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{71754D67-69F2-4610-BE86-B239CEBD14B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F96E34BE-DD07-4854-9BE3-BB478D26E6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96E34BE-DD07-4854-9BE3-BB478D26E6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96E34BE-DD07-4854-9BE3-BB478D26E6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96E34BE-DD07-4854-9BE3-BB478D26E6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFA2C29-2975-445C-BAA1-E873B1D3BC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFA2C29-2975-445C-BAA1-E873B1D3BC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFA2C29-2975-445C-BAA1-E873B1D3BC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFA2C29-2975-445C-BAA1-E873B1D3BC13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71754D67-69F2-4610-BE86-B239CEBD14B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71754D67-69F2-4610-BE86-B239CEBD14B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71754D67-69F2-4610-BE86-B239CEBD14B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71754D67-69F2-4610-BE86-B239CEBD14B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
