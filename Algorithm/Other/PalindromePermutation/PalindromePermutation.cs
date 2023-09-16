@@ -42,7 +42,7 @@ public static class PalindromePermutation
         {
             char lowerChar = char.ToLower(ch);
         
-            if(char.IsWhiteSpace(lowerChar)) // lowerChar == '' || lowerChar == ' '
+            if(char.IsWhiteSpace(lowerChar)) 
                 continue;
 
             if (hashSet.Contains(lowerChar))
@@ -68,17 +68,13 @@ public static class PalindromePermutation
             if (char.IsWhiteSpace(lowerChar))
                 continue;
 
-            int index = lowerChar - 'a';  // Convert to 0-based index
+            int index = lowerChar - 'a'; 
 
             int mask = 1 << index;
             if ((bitVector & mask) == 0)
-            {
-                bitVector |= mask;  // Turn on the bit if it's off
-            }
+                bitVector =bitVector | mask;  
             else
-            {
-                bitVector &= ~mask; // Turn off the bit if it's on
-            }
+                bitVector = bitVector &  ~mask;
         }
 
         return bitVector == 0 || (bitVector & (bitVector - 1)) == 0;
