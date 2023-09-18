@@ -4,39 +4,17 @@ namespace Algorithm.Tests.Other;
 
 public class StringCompressionTests
 {
-    [Fact]
-    public void WithOneSingleChar()
+    [Theory]
+    [InlineData("aabcccccaaa", "a2b1c5a3")]
+    [InlineData("abcd", "abcd")]
+    [InlineData("aabbcc", "aabbcc")]
+    [InlineData("a", "a")]
+    [InlineData("aa", "aa")]
+    [InlineData("aaa", "a3")]
+    [InlineData("", "")]
+    public void TestCompressString(string input, string expected)
     {
-        Assert.Equal("a", StringCompression.Run("a"));
-    }
-
-    [Fact]
-    public void WithTwoChars()
-    {
-        Assert.Equal("aa", StringCompression.Run("aa"));
-    }
-
-    [Fact]
-    public void WithThreeChars()
-    {
-        Assert.Equal("3a", StringCompression.Run("aaa"));
-    }
-
-    [Fact]
-    public void WithDifferentChars()
-    {
-        Assert.Equal("aaab", StringCompression.Run("aaab"));
-    }
-
-    [Fact]
-    public void WithDifferentChars_RepeatingSeveralTimes()
-    {
-        Assert.Equal("3a2b", StringCompression.Run("aaabb"));
-    }
-
-    [Fact]
-    public void WithDifferentChars_RepeatingInMoreSeqs()
-    {
-        Assert.Equal("3a2b2a", StringCompression.Run("aaabbaa"));
+        var result = StringCompression.Run(input);
+        Assert.Equal(expected, result);
     }
 }
