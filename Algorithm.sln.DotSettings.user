@@ -3,5 +3,7 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::Algorithm.Tests.Other.IsUniqueTest.Run_ShouldReturnExpectedResults&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::URLifyTests.Test_ReplaceSpaces_WithTwoConsecutiveSpaces_ShouldReturnDoublePercent20&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::Algorithm.Tests.Other.StringCompressionTests.TestCompressString&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::Algorithm.Tests.Other.StringCompressionTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
