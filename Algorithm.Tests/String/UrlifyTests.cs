@@ -1,5 +1,6 @@
-using Algorithm.Other.URLify;
-using Xunit;
+using Algorithm.String.URLify;
+
+namespace Algorithm.Tests.String;
 
 public class URLifyTests
 {
@@ -62,5 +63,3 @@ public class URLifyTests
 
     // The ReplaceSpaces method from above goes here for compilation.
 }
-
-

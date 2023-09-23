@@ -1,6 +1,6 @@
 using Algorithm.Sorting;
 
-namespace Algorithm.Other.IsUnique;
+namespace Algorithm.String.IsUnique;
 //Cracking Coding Interview 1.1
 public class IsUnique
 {

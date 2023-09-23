@@ -1,4 +1,4 @@
-namespace Algorithm.Other.PalindromePermutation;
+namespace Algorithm.String.PalindromePermutation;
 
 //Cracking Coding Interview 1.4
 

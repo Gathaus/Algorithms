@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace Algorithm.Other.StringCompression;
+namespace Algorithm.String.StringCompression;
 
 public static class StringCompression
 {

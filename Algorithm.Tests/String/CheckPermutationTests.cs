@@ -1,6 +1,6 @@
-using Algorithm.Other.CheckPermutation;
+using Algorithm.String.CheckPermutation;
 
-namespace Algorithm.Tests.Other;
+namespace Algorithm.Tests.String;
 
 public class CheckPermutationTests
 {

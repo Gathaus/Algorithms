@@ -1,4 +1,4 @@
-namespace Algorithm.Other.CheckPermutation;
+namespace Algorithm.String.CheckPermutation;
 
 public class CheckPermutation
 {

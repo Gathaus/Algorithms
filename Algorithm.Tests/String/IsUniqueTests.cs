@@ -1,7 +1,6 @@
-using Algorithm.Other;
-using Algorithm.Other.IsUnique;
+using Algorithm.String.IsUnique;
 
-namespace Algorithm.Tests.Other;
+namespace Algorithm.Tests.String;
 
 public class IsUniqueTest
 {

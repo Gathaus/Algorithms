@@ -1,6 +1,6 @@
-using Algorithm.Other.PalindromePermutation;
+using Algorithm.String.PalindromePermutation;
 
-namespace Algorithm.Tests.Other;
+namespace Algorithm.Tests.String;
 
 public class PalindromePermutationTests
 {

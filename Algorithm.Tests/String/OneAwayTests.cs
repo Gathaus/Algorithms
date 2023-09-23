@@ -1,6 +1,6 @@
-using Algorithm.Other.OneAway;
+using Algorithm.String.OneAway;
 
-namespace Algorithm.Tests.Other;
+namespace Algorithm.Tests.String;
 
 public class OneAwayTests
 {

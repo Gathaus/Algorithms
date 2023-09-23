@@ -1,6 +1,4 @@
-using Algorithm.Sorting;
-
-namespace Algorithm.Other.URLify;
+namespace Algorithm.String.URLify;
 
 //Cracking Coding Interview 1.3
 public static class Urlify

@@ -1,5 +1,6 @@
 using System;
 using Algorithm.String;
+using Algorithm.String.RotateMatrix;
 using Xunit;
 
 public class RotateMatrixTests
@@ -12,9 +13,9 @@ public class RotateMatrixTests
             new int[] {1}
         };
 
-        RotateMatrix.Run(matrix);
+        int[][] result = RotateMatrix.RunWithInPlace(matrix);
 
-        Assert.Equal(1, matrix[0][0]);
+        Assert.Equal(1, result[0][0]);
     }
 
     [Fact]
@@ -26,12 +27,12 @@ public class RotateMatrixTests
             new int[] {3, 4}
         };
 
-        RotateMatrix.Run(matrix);
+        int[][] result = RotateMatrix.RunWithInPlace(matrix);
 
-        Assert.Equal(3, matrix[0][0]);
-        Assert.Equal(1, matrix[0][1]);
-        Assert.Equal(4, matrix[1][0]);
-        Assert.Equal(2, matrix[1][1]);
+        Assert.Equal(3, result[0][0]);
+        Assert.Equal(1, result[0][1]);
+        Assert.Equal(4, result[1][0]);
+        Assert.Equal(2, result[1][1]);
     }
 
     [Fact]
@@ -44,7 +45,7 @@ public class RotateMatrixTests
             new int[] {7, 8, 9}
         };
 
-        RotateMatrix.Run(matrix);
+        int[][] result = RotateMatrix.RunWithInPlace(matrix);
 
         int[][] expected =
         {
@@ -53,12 +54,13 @@ public class RotateMatrixTests
             new int[] {9, 6, 3}
         };
 
-        for (int i = 0; i < matrix.Length; i++)
+        for (int i = 0; i < result.Length; i++)
         {
-            for (int j = 0; j < matrix[i].Length; j++)
+            for (int j = 0; j < result[i].Length; j++)
             {
-                Assert.Equal(expected[i][j], matrix[i][j]);
+                Assert.Equal(expected[i][j], result[i][j]);
             }
         }
     }
+
 }

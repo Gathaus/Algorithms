@@ -1,6 +1,6 @@
-using Algorithm.Other.StringCompression;
+using Algorithm.String.StringCompression;
 
-namespace Algorithm.Tests.Other;
+namespace Algorithm.Tests.String;
 
 public class StringCompressionTests
 {

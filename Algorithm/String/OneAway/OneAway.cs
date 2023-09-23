@@ -1,4 +1,4 @@
-namespace Algorithm.Other.OneAway;
+namespace Algorithm.String.OneAway;
 
 public static class OneAway
 {
