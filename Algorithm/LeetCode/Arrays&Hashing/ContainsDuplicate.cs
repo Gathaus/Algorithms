@@ -8,14 +8,11 @@ public class ContainsDuplicate
             HashSet<int> numsSet = new HashSet<int>();
 
             foreach(int num in nums){
-                if(!numsSet.Contains(num))
-                    numsSet.Add(num);
+                if(numsSet.Contains(num))
+                    return true;
+                numsSet.Add(num);
             }
-
-            if(numsSet.Count == nums.Length)
-                return false;
-            else
-                return true;
+            return false;
         }
     }
 }
