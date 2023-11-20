@@ -2,8 +2,6 @@ using Algorithm.String.PalindromePermutation;
 
 namespace Algorithm.Tests.String;
 
-public class PalindromePermutationTests
-{
     public class PalindromePermutationTest
     {
 
@@ -37,4 +35,3 @@ public class PalindromePermutationTests
             Assert.True(PalindromePermutation.RunWithHashSet("act cat"));
         }
     }
-}
