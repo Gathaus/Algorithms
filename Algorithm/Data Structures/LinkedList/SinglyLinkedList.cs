@@ -67,6 +67,17 @@ public class SinglyLinkedList<T>
             Tail = newNode;
         }
     }
+
+    public void PrintList()
+    {
+        Node<T> node = Head;
+        while (node != null)
+        {
+            Console.Write(node.Data + " ");
+            node = node.Next;
+        }
+        Console.WriteLine();
+    }
     
     
 }

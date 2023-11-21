@@ -1,9 +1,18 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=050888a4_002D5a1f_002D4d0e_002Da348_002D9c0bac26f176/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Compute_ReturnsFalse_WhenNotPrime" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=050888a4_002D5a1f_002D4d0e_002Da348_002D9c0bac26f176/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Compute_ReturnsFalse_WhenNotPrime" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::Algorithm.Tests.Other.IsUniqueTest.Run_ShouldReturnExpectedResults&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::URLifyTests.Test_ReplaceSpaces_WithTwoConsecutiveSpaces_ShouldReturnDoublePercent20&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::Algorithm.Tests.Other.StringCompressionTests.TestCompressString&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::Algorithm.Tests.Other.StringCompressionTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::RemoveDupsTests.Test_WithDuplicates&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=99e90962_002Dd3fa_002D4e0c_002D9568_002D3cea8912c7b0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test_WithDuplicates" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::RemoveDupsTests.Test_WithDuplicates&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::RemoveDupsTests.Test_WithDuplicates_WithoutBuffer&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b4fcb362_002D23ca_002D450c_002D8730_002Dfe8050ddfb05/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test_WithDuplicates #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::RemoveDupsTests.Test_WithDuplicates&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4EFA2C29-2975-445C-BAA1-E873B1D3BC13::net7.0::RemoveDupsTests.Test_WithDuplicates_WithoutBuffer&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
